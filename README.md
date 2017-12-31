@@ -10,8 +10,6 @@ Chrome extension that extends Bittrex market functionality.
 * Click "Load unpacked extension" and select extension folder.
 
 # TBD
-1. Feature (1) to be moved to "type" column, colors should be changed
-1. Delta with current USD price should be calculated and displayed as +/- %/$
 
 # Known bugs
 
