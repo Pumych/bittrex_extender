@@ -1,4 +1,13 @@
 .bte-text{
     font-weight: bold;
-    color: #FF00EE;
+    /*color: #FF00EE;*/
+    color: rgb(194, 0, 255);
+}
+
+.bte-text.red{
+    color: red;
+}
+
+.bte-text.green{
+    color: green;
 }
