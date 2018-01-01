@@ -18,10 +18,16 @@ $(document).ready(function(){
     });
 });
 
+/**
+ * Do every tick the following
+ */
 function tick(){
     myOrderHistoryDomUpdate();
 }
 
+/**
+ * Updates Order History Dom
+ */
 function myOrderHistoryDomUpdate(){
     if($('#closedMarketOrdersTable td.date.sorting_1').is(':visible') && !isElmUpdated.myOrderHistory){
         let closedMarketOrdersElms = $('#closedMarketOrdersTable td.date.sorting_1');
